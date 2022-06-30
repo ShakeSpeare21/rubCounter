@@ -7,7 +7,7 @@ function count(num, elem) {
     let t = timer;
     let interval = setInterval(() => {
         n += shag;
-        l.innerHTML = n.toFixed(2) + ' рублей';
+        l.innerHTML = `${n.toFixed(2)} рублей`;
     }, t);
 
 }
